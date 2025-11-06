@@ -1,6 +1,6 @@
 # Agente de Recomendações iFood (Demo RAG)
 
-Este projeto é uma demonstração técnica de um Agente de IA Conversacional construído para simular uma experiência de descoberta de pratos no iFood.
+Este projeto é uma demonstração técnica de um Agente de IA Conversacional construído para simular uma experiência de descoberta de pratos em aplicativos de delivery de comida.
 
 O objetivo é ir além de filtros e buscas por palavras-chave, permitindo que o usuário "converse" com o catálogo para encontrar pratos usando linguagem natural, contexto e memória.
 
