@@ -7,7 +7,7 @@ O objetivo é ir além de filtros e buscas por palavras-chave, permitindo que o 
 Este projeto foi desenvolvido como um estudo de caso focando nas habilidades de desenvolvimento de agentes, LLMs, LLMOps e LangChain.
 
 ## Demo em Ação
-<img src="https://raw.githubusercontent.com/tomielopedro/ifood-ai-recommendation/main/img/demo.png" alt="Demonstração do Agente em Ação" width="40%"/>
+<img src="https://raw.githubusercontent.com/tomielopedro/ifood-ai-recommendation/main/img/demo.png" alt="Demonstração do Agente em Ação" width="600"/>
 
 ## Funcionalidades Principais
 
