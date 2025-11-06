@@ -1,4 +1,4 @@
-# Agente de Recomendações iFood (Demo RAG)
+# Agente de Recomendações AiFood (Demo RAG)
 
 Este projeto é uma demonstração técnica de um Agente de IA Conversacional construído para simular uma experiência de descoberta de pratos em aplicativos de delivery de comida.
 
