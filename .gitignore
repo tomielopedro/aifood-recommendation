@@ -1,0 +1,8 @@
+# .gitignore
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+
+# Arquivo de configuração de ambiente
+.env

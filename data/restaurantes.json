@@ -1,0 +1,362 @@
+[
+  {
+    "id_restaurante": "rest_001",
+    "nome_restaurante": "Sabor Verde Veggie",
+    "tipo_cozinha": "Vegana",
+    "endereco": "Rua das Flores, 123",
+    "rating": 4.8,
+    "menu": [
+      {
+        "id_item": "sv_01",
+        "nome": "Moqueca Vegana de Banana-da-Terra (serve 2)",
+        "descricao": "Uma releitura do clássico baiano, sem ingredientes de origem animal. Feita com banana-da-terra, leite de coco, pimentões e um toque de azeite de dendê. Acompanha arroz branco e farofa de dendê.",
+        "preco": 65.00,
+        "tags": ["vegano", "sem glúten", "sem lactose", "saudável", "serve 2", "brasileira", "comfort food"]
+      },
+      {
+        "id_item": "sv_02",
+        "nome": "Hambúrguer de Grão de Bico",
+        "descricao": "Delicioso hambúrguer artesanal de grão de bico com maionese de alho vegana, alface, tomate e pão australiano.",
+        "preco": 28.50,
+        "tags": ["vegano", "sem lactose", "fast-food", "individual", "hambúrguer"]
+      },
+      {
+        "id_item": "sv_03",
+        "nome": "Not-Dog Famoso",
+        "descricao": "Salsicha vegetal especial da casa, pão macio, purê de batata, milho, ervilha e batata palha.",
+        "preco": 22.00,
+        "tags": ["vegano", "fast-food", "barato", "individual", "comfort food"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_002",
+    "nome_restaurante": "Cantina do Tio Franco",
+    "tipo_cozinha": "Italiana",
+    "endereco": "Av. Principal, 456",
+    "rating": 4.6,
+    "menu": [
+      {
+        "id_item": "cf_01",
+        "nome": "Lasanha à Bolonhesa (serve 2-3 pessoas)",
+        "descricao": "Massa fresca artesanal, recheada com molho à bolonhesa tradicional (carne bovina), molho bechamel e queijo parmesão gratinado.",
+        "preco": 75.00,
+        "tags": ["italiana", "massa", "carne", "queijo", "serve 2", "serve 3", "tamanho família", "comfort food"]
+      },
+      {
+        "id_item": "cf_02",
+        "nome": "Pizza Margherita Individual",
+        "descricao": "Massa de fermentação longa, molho de tomate pelati, muçarela de búfala e folhas de manjericão fresco.",
+        "preco": 35.00,
+        "tags": ["italiana", "pizza", "vegetariana", "individual", "queijo"]
+      },
+      {
+        "id_item": "cf_03",
+        "nome": "Tiramisù Clássico",
+        "descricao": "Tradicional sobremesa italiana com biscoitos champagne, café, mascarpone e cacau em pó.",
+        "preco": 25.00,
+        "tags": ["italiana", "sobremesa", "doce", "individual", "contém glúten", "contém lactose"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_003",
+    "nome_restaurante": "Fit&Go Saladas",
+    "tipo_cozinha": "Saudável",
+    "endereco": "Rua da Academia, 789",
+    "rating": 4.9,
+    "menu": [
+      {
+        "id_item": "fg_01",
+        "nome": "Wrap de Frango e Abacate",
+        "descricao": "Pão folha integral recheado com tiras de frango grelhado, abacate fatiado, mix de folhas e molho de iogurte light.",
+        "preco": 22.00,
+        "tags": ["saudável", "fitness", "individual", "leve", "frango", "low carb"]
+      },
+      {
+        "id_item": "fg_02",
+        "nome": "Bowl de Salmão com Quinoa",
+        "descricao": "Cubos de salmão fresco, quinoa, brócolis cozido no vapor, manga e gergelim. Molho de shoyu light à parte.",
+        "preco": 38.00,
+        "tags": ["saudável", "fitness", "peixe", "leve", "individual", "sem glúten", "sem lactose"]
+      },
+      {
+        "id_item": "fg_03",
+        "nome": "Suco Detox Verde (500ml)",
+        "descricao": "Couve, abacaxi, gengibre, hortelã e água de coco.",
+        "preco": 15.00,
+        "tags": ["saudável", "fitness", "vegano", "sem glúten", "sem lactose", "bebida", "barato"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_004",
+    "nome_restaurante": "Sushi Zen",
+    "tipo_cozinha": "Japonesa",
+    "endereco": "Travessa Oriental, 10",
+    "rating": 4.7,
+    "menu": [
+      {
+        "id_item": "sz_01",
+        "nome": "Combinado Zen (Serve 2)",
+        "descricao": "Seleção do chef com 30 peças variadas. Inclui sashimi de salmão, niguiri, uramaki e hossomaki.",
+        "preco": 95.00,
+        "tags": ["japonesa", "peixe cru", "frutos do mar", "serve 2", "sem lactose"]
+      },
+      {
+        "id_item": "sz_02",
+        "nome": "Temaki Filadélfia Completo",
+        "descricao": "Cone de alga recheado com arroz, salmão grelhado, cream cheese e cebolinha.",
+        "preco": 29.00,
+        "tags": ["japonesa", "temaki", "individual", "peixe", "queijo", "rápido"]
+      },
+      {
+        "id_item": "sz_03",
+        "nome": "Hot Roll (8 unidades)",
+        "descricao": "Sushi frito e crocante recheado com salmão e cream cheese, coberto com molho tarê.",
+        "preco": 25.00,
+        "tags": ["japonesa", "frito", "queijo", "individual", "entrada", "comfort food"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_005",
+    "nome_restaurante": "La Fiesta Taqueria",
+    "tipo_cozinha": "Mexicana",
+    "endereco": "Calle Caliente, 200",
+    "rating": 4.5,
+    "menu": [
+      {
+        "id_item": "lf_01",
+        "nome": "Burrito de Carne Asada",
+        "descricao": "Tortilha de trigo recheada com carne assada, feijão, arroz mexicano, guacamole e sour cream. Nível de pimenta à escolha.",
+        "preco": 32.00,
+        "tags": ["mexicana", "carne", "apimentado", "individual", "comfort food"]
+      },
+      {
+        "id_item": "lf_02",
+        "nome": "Tacos al Pastor (3 unidades)",
+        "descricao": "Pequenas tortilhas de milho com carne de porco marinada (pastor), abacaxi, coentro e cebola.",
+        "preco": 28.00,
+        "tags": ["mexicana", "carne de porco", "apimentado", "individual", "rápido"]
+      },
+      {
+        "id_item": "lf_03",
+        "nome": "Quesadillas de Queijo e Cogumelos",
+        "descricao": "Tortilha dobrada e grelhada, recheada com queijo derretido e cogumelos frescos salteados.",
+        "preco": 26.00,
+        "tags": ["mexicana", "vegetariana", "queijo", "individual", "barato", "entrada"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_006",
+    "nome_restaurante": "Brasa Burger Artesanal",
+    "tipo_cozinha": "Hamburgueria",
+    "endereco": "Rua do Fogo, 50",
+    "rating": 4.8,
+    "menu": [
+      {
+        "id_item": "bb_01",
+        "nome": "Duplo Cheddar Bacon",
+        "descricao": "Dois hambúrgueres artesanais de 150g, pão brioche, queijo cheddar duplo, bacon crocante e maionese da casa.",
+        "preco": 39.00,
+        "tags": ["hambúrguer", "artesanal", "carne", "queijo", "bacon", "individual", "comfort food"]
+      },
+      {
+        "id_item": "bb_02",
+        "nome": "Smash Simples",
+        "descricao": "Hambúrguer de 100g prensado na chapa (smash), pão, queijo e molho especial.",
+        "preco": 20.00,
+        "tags": ["hambúrguer", "fast-food", "carne", "queijo", "barato", "rápido", "individual"]
+      },
+      {
+        "id_item": "bb_03",
+        "nome": "Combo Brasa (Batata + Refri)",
+        "descricao": "Adicione batata frita rústica (150g) e um refrigerante lata à sua escolha.",
+        "preco": 15.00,
+        "tags": ["acompanhamento", "bebida", "frito", "barato", "vegetariano"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_007",
+    "nome_restaurante": "Cantinho da Vovó",
+    "tipo_cozinha": "Brasileira (Caseira)",
+    "endereco": "Rua Aconchego, 12",
+    "rating": 4.9,
+    "menu": [
+      {
+        "id_item": "cv_01",
+        "nome": "Feijoada Completa (Serve 2)",
+        "descricao": "Feijoada tradicional com todas as carnes, acompanha arroz, couve refogada, farofa e torresmo.",
+        "preco": 80.00,
+        "tags": ["brasileira", "caseira", "feijoada", "carne de porco", "serve 2", "almoço", "comfort food"]
+      },
+      {
+        "id_item": "cv_02",
+        "nome": "Parmegiana de Frango (Serve 2)",
+        "descricao": "Filé de frango empanado, coberto com molho de tomate caseiro e queijo derretido. Acompanha arroz e batata frita.",
+        "preco": 70.00,
+        "tags": ["brasileira", "caseira", "frango", "queijo", "frito", "serve 2", "almoço"]
+      },
+      {
+        "id_item": "cv_03",
+        "nome": "Prato Feito (PF) do Dia",
+        "descricao": "Arroz, feijão, bife acebolado, ovo frito e salada de alface e tomate. Consulte a opção do dia.",
+        "preco": 25.00,
+        "tags": ["brasileira", "caseira", "individual", "almoço", "barato", "rápido", "carne"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_008",
+    "nome_restaurante": "Taj Mahal Especiarias",
+    "tipo_cozinha": "Indiana",
+    "endereco": "Rua dos Cravos, 77",
+    "rating": 4.7,
+    "menu": [
+      {
+        "id_item": "tm_01",
+        "nome": "Butter Chicken (Frango Cremoso)",
+        "descricao": "Cubos de frango marinados em iogurte e especiarias, cozidos em um molho cremoso de tomate e manteiga. Levemente apimentado.",
+        "preco": 45.00,
+        "tags": ["indiana", "frango", "cremoso", "apimentado", "individual", "contém lactose"]
+      },
+      {
+        "id_item": "tm_02",
+        "nome": "Curry de Legumes (Vegano)",
+        "descricao": "Mix de legumes frescos (batata, cenoura, vagem, couve-flor) cozidos em um molho de curry e leite de coco. Nível de pimenta médio.",
+        "preco": 38.00,
+        "tags": ["indiana", "vegano", "vegetariano", "apimentado", "saudável", "individual", "sem lactose"]
+      },
+      {
+        "id_item": "tm_03",
+        "nome": "Samosas (2 unidades)",
+        "descricao": "Pastéis fritos em formato triangular, recheados com batata e ervilha temperadas.",
+        "preco": 18.00,
+        "tags": ["indiana", "vegetariano", "entrada", "barato", "frito", "rápido"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_009",
+    "nome_restaurante": "Doce Pedaço Confeitaria",
+    "tipo_cozinha": "Sobremesas",
+    "endereco": "Praça das Tortas, 1",
+    "rating": 4.9,
+    "menu": [
+      {
+        "id_item": "dp_01",
+        "nome": "Fatia de Torta Red Velvet",
+        "descricao": "Massa aveludada vermelha com recheio e cobertura de cream cheese frosting.",
+        "preco": 22.00,
+        "tags": ["sobremesa", "doce", "torta", "bolo", "individual", "queijo", "contém glúten", "contém lactose"]
+      },
+      {
+        "id_item": "dp_02",
+        "nome": "Torta de Limão Clássica",
+        "descricao": "Massa crocante, recheio de creme de limão azedinho e cobertura de merengue suíço.",
+        "preco": 19.00,
+        "tags": ["sobremesa", "doce", "torta", "cítrico", "individual", "contém glúten", "contém lactose"]
+      },
+      {
+        "id_item": "dp_03",
+        "nome": "Pudim de Leite (fatia)",
+        "descricao": "Pudim de leite condensado tradicional, com calda de caramelo.",
+        "preco": 15.00,
+        "tags": ["sobremesa", "doce", "pudim", "individual", "barato", "sem glúten", "contém lactose"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_010",
+    "nome_restaurante": "Açaí Power",
+    "tipo_cozinha": "Açaí e Sucos",
+    "endereco": "Av. da Praia, 1000",
+    "rating": 4.6,
+    "menu": [
+      {
+        "id_item": "ap_01",
+        "nome": "Açaí 500ml (Puro)",
+        "descricao": "Creme de açaí puro, sem xarope. Adicione seus acompanhamentos!",
+        "preco": 20.00,
+        "tags": ["açaí", "saudável", "fitness", "vegano", "sem glúten", "sem lactose", "barato", "individual"]
+      },
+      {
+        "id_item": "ap_02",
+        "nome": "Suco Energético (500ml)",
+        "descricao": "Laranja, beterraba e cenoura.",
+        "preco": 14.00,
+        "tags": ["sucos", "saudável", "fitness", "vegano", "sem glúten", "sem lactose", "bebida", "barato"]
+      },
+      {
+        "id_item": "ap_03",
+        "nome": "Tapioca de Frango e Queijo",
+        "descricao": "Goma de tapioca hidratada na chapa com recheio de frango desfiado e queijo muçarela.",
+        "preco": 18.00,
+        "tags": ["tapioca", "salgado", "frango", "queijo", "rápido", "individual", "sem glúten"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_011",
+    "nome_restaurante": "Pizza Rústica (Forno a Lenha)",
+    "tipo_cozinha": "Pizzaria",
+    "endereco": "Rua da Lenha, 321",
+    "rating": 4.7,
+    "menu": [
+      {
+        "id_item": "pr_01",
+        "nome": "Pizza Calabresa (Grande 8 fatias)",
+        "descricao": "Molho de tomate, muçarela, calabresa fatiada, cebola e azeitonas.",
+        "preco": 68.00,
+        "tags": ["pizza", "forno a lenha", "tamanho família", "serve 3", "serve 4", "queijo", "carne"]
+      },
+      {
+        "id_item": "pr_02",
+        "nome": "Pizza 4 Queijos (Grande 8 fatias)",
+        "descricao": "Molho de tomate, muçarela, provolone, parmesão e gorgonzola.",
+        "preco": 72.00,
+        "tags": ["pizza", "forno a lenha", "tamanho família", "serve 3", "serve 4", "vegetariana", "queijo"]
+      },
+      {
+        "id_item": "pr_03",
+        "nome": "Broto de Chocolate com Morango",
+        "descricao": "Pizza pequena (4 fatias) com cobertura de chocolate derretido e morangos frescos.",
+        "preco": 35.00,
+        "tags": ["pizza", "sobremesa", "doce", "chocolate", "morango", "vegetariana"]
+      }
+    ]
+  },
+  {
+    "id_restaurante": "rest_012",
+    "nome_restaurante": "Maré Alta Frutos do Mar",
+    "tipo_cozinha": "Frutos do Mar",
+    "endereco": "Av. Beira Mar, 555",
+    "rating": 4.8,
+    "menu": [
+      {
+        "id_item": "ma_01",
+        "nome": "Camarão Internacional (Serve 2)",
+        "descricao": "Arroz cremoso com camarões, ervilhas e presunto, gratinado com queijo muçarela e batata palha.",
+        "preco": 110.00,
+        "tags": ["frutos do mar", "camarão", "cremoso", "queijo", "serve 2", "gourmet", "caro"]
+      },
+      {
+        "id_item": "ma_02",
+        "nome": "Tilápia Grelhada com Legumes",
+        "descricao": "Filé de tilápia grelhado, acompanhado de legumes salteados (brócolis, cenoura, abobrinha).",
+        "preco": 48.00,
+        "tags": ["peixe", "grelhado", "saudável", "fitness", "low carb", "individual", "sem glúten", "sem lactose"]
+      },
+      {
+        "id_item": "ma_03",
+        "nome": "Casquinha de Siri",
+        "descricao": "Carne de siri refogada e gratinada com queijo parmesão.",
+        "preco": 25.00,
+        "tags": ["frutos do mar", "siri", "entrada", "individual", "queijo", "barato"]
+      }
+    ]
+  }
+]
