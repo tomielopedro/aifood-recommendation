@@ -3,13 +3,13 @@ from src.rag_pipeline import setup_rag_pipeline
 from langchain_core.messages import HumanMessage, AIMessage
 
 st.set_page_config(
-    page_title="Agente iFood (Com Memória)",
+    page_title="AI FOOD",
     page_icon="🧠",
     layout="centered"
 )
 
-st.title("🧠 Agente iFood (Com Memória)")
-st.caption("Agora com LangChain, Ollama e memória de conversação (API nova de 2024/2025)")
+st.title("🤖  AI FOOD ")
+st.divider()
 
 try:
     rag_chain = setup_rag_pipeline()
@@ -19,7 +19,7 @@ except Exception as e:
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
-        AIMessage(content="Olá! Sou seu assistente iFood com memória. O que vamos pedir hoje?")
+        AIMessage(content="Olá! Sou seu chefe de cozinha. O que vamos pedir hoje?")
     ]
 
 for msg in st.session_state.chat_history:
