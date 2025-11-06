@@ -7,7 +7,7 @@ O objetivo é ir além de filtros e buscas por palavras-chave, permitindo que o 
 Este projeto foi desenvolvido como um estudo de caso focando nas habilidades de desenvolvimento de agentes, LLMs, LLMOps e LangChain.
 
 ## Demo em Ação
-<img src="https://raw.githubusercontent.com/tomielopedro/ifood-ai-recommendation/main/img/demo.png" alt="Demonstração do Agente em Ação" width="600"/>
+<img src="https://raw.githubusercontent.com/tomielopedro/aifood-recommendation/main/img/demo.png" alt="Demonstração do Agente em Ação" width="600"/>
 
 ## Funcionalidades Principais
 
@@ -32,7 +32,7 @@ Este projeto foi desenvolvido como um estudo de caso focando nas habilidades de 
 
 Esta é a parte mais importante do projeto. O agente não é apenas um LLM respondendo perguntas. Ele segue um pipeline RAG sofisticado orquestrado com LangChain (LCEL) para garantir que as respostas sejam baseadas apenas nos dados dos restaurantes.
 
-<img src="https://raw.githubusercontent.com/tomielopedro/ifood-ai-recommendation/main/img/diagrama.png" alt="Diagrama de arquitetura" width="600"/>
+<img src="https://raw.githubusercontent.com/tomielopedro/aifood-recommendation/main/img/diagrama.png" alt="Diagrama de arquitetura" width="600"/>
 
 
 O fluxo de uma pergunta do usuário é o seguinte:
@@ -64,7 +64,7 @@ Você precisará ter o Ollama instalado e rodando em sua máquina.
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone https://github.com/tomielopedro/ifood-ai-recommendation.git
+    git clone https://github.com/tomielopedro/aifood-recommendation.git
     cd ifood-ai-recommendation
     ```
 
